@@ -1,0 +1,18 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35vh;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background-image: url('/src/images/headerImage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}

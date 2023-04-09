@@ -1,6 +1,14 @@
+@font-face {
+  font-family: 'Crossten Semibold';
+  src: url("/src/fonts/CrosstenSemiBold.woff") format('woff2'),
+    url("/src/fonts/CrosstenSemiBold.woff") format('woff');
+  /* Add any other font properties here, such as font-weight or font-style */
+}
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "Crossten Semibold", 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;

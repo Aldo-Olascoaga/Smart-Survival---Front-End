@@ -1,0 +1,81 @@
+/* ---------------------------- */
+/* Query for iPhone SE */
+@media (device-width: 375px) and (device-height: 667px) {
+  label {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 14px;
+    padding-bottom: 10px;
+    margin-left: 75px;
+  }
+
+  .register-form {
+    padding: 10px;
+  }
+
+  .login-container {
+    margin-top: -55px;
+  }
+}
+
+/* Quey for iPhone X */
+@media (device-width: 414px) and (device-height: 896px) {
+  label {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 14px;
+    padding-bottom: 10px;
+    margin-left: 75px;
+  }
+
+  .register-form {
+    padding: 10px;
+  }
+}
+
+/* Query for iPhone 12 Pro */
+@media (device-width: 390px) and (device-height: 844px) {
+  label {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 14px;
+    padding-bottom: 10px;
+    margin-left: 75px;
+  }
+
+  .register-form {
+    padding: 10px;
+  }
+
+  .login-container {
+    margin-top: -90px;
+  }
+}
+
+/* Query for Pixel 5 */
+@media (device-width: 393px) and (device-height: 851px) {
+  label {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 14px;
+    padding-bottom: 10px;
+    margin-left: 75px;
+  }
+
+  .register-form {
+    padding: 10px;
+  }
+
+  .login-container {
+    margin-top: -90px;
+  }
+}
+/* ---------------------------- */

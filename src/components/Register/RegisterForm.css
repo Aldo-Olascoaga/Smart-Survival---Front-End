@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Crossten Semibold';
+  src: url('/src/fonts/CrosstenSemiBold.woff') format('woff2'),
+    url('/src/fonts/CrosstenSemiBold.woff') format('woff');
+  /* Add any other font properties here, such as font-weight or font-style */
+}
+
+.register-form {
+  border: solid 2px #1670ba;
+  border-radius: 20px;
+  padding: 25px;
+  margin-left: 30px;
+  padding-top: 3px;
+  padding-bottom: 0;
+}
+
+button {
+  background-color: #d44d56;
+  color: white;
+  border: solid 2px #ffff;
+  border-radius: 20px;
+  font-family: 'Crossten Semibold';
+  font-size: 16px;
+  padding: 5px 5px;
+  cursor: pointer;
+  padding-right: 18px;
+}
+
+input,
+select {
+  margin-bottom: 15px;
+  margin-left: 8px;
+  cursor: pointer;
+  font-family: 'Crossten Semibold';
+}
+
+label {
+  color: #1670ba;
+  font-size: 16px;
+}
+
+input {
+  border: none;
+  border-bottom: solid 1px #1670ba;
+}
+
+@media all and (max-height: 915px) {
+  .register-form {
+    margin-top: 25px;
+  }
+}

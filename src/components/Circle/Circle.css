@@ -1,0 +1,9 @@
+.circle-container {
+  display: flex;
+}
+
+.blue-circle {
+  transform: scale(0.2);
+  justify-self: flex-start;
+  align-self: center;
+}

@@ -1,0 +1,60 @@
+.profile-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  top: 40%;
+}
+
+.challenge-invitation-item {
+  position: relative;
+  left: 10%;
+  text-align: justify;
+  padding: 1.5%;
+  width: 30%;
+  border: solid 5px #5b0baf;
+  animation: border-color 4s infinite;
+  border-radius: 20px;
+}
+
+@keyframes border-color {
+  5% {
+    border-color: #0053b1;
+  }
+  45% {
+    border-color: #f6ba27;
+  }
+  60% {
+    border-color: #d44d56;
+  }
+  75% {
+    border-color: #5b0baf;
+  }
+  100% {
+    border-color: #52beda;
+  }
+}
+
+h2 {
+  color: #005d97;
+}
+
+.challenge-invitation-item input {
+  cursor: auto;
+  position: relative;
+  border: solid 3px #5b0baf;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.challenge-btn {
+  padding: 10px;
+  position: relative;
+  left: 25%;
+}
+
+.successful-invitation {
+  color: #005d97;
+  text-align: center;
+}
